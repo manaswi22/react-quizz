@@ -1,0 +1,93 @@
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #e5d8d8;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 130px;
+    
+}
+  
+h1 {
+    text-align: center;
+    color: #333;
+}
+  
+.container1,
+.container2 {
+    margin-bottom: 10px;
+}
+  
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+  
+select {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+}
+  
+.container3 {
+    margin-top: 20px;
+}
+  
+p {
+    margin-bottom: 10px;
+}
+  
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #2d5f95;
+    background: transparent;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+  
+button:hover {
+    color: white;
+    background-color: #5f9fb6;
+}
+  
+button:focus {
+    outline: none;
+}
+  
+  .timer {
+    font-weight: bold;
+  }
+
+  
+  .result {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  /* p{
+    font-weight: bolder
+  } */
+  @media only screen and (max-width: 600px) {
+    .container {
+      padding: 10px;
+    }
+  
+    select {
+      font-size: 14px;
+    }
+  }
+  
+  @media only screen and (max-width: 400px) {
+    button {
+      font-size: 14px;
+    }
+  }
+  
